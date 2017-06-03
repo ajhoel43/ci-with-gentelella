@@ -89,7 +89,7 @@ $config['theme_locations'] = array(
 );
 
 
-$template['active_template'] = 'default';
+$template['active_template'] = 'gentelella';
 
 $template['bootstrap']['template'] = 'template/bootstrap.php';
 $template['bootstrap']['regions'] = array(
@@ -106,7 +106,7 @@ $template['bootstrap']['parse_template'] = FALSE;
 
 $template['default']['template'] = 'template/simple.php';
 $template['default']['regions'] = array(
-   'title' => array('content' => array('Juice Box v2.a')),
+   'title' => array('content' => array('Ajhoel Tragedy Template')),
    'header',
    'content',
    'navs',
@@ -118,3 +118,19 @@ $template['default']['regions'] = array(
 $template['default']['parser'] = 'parser';
 $template['default']['parser_method'] = 'parse';
 $template['default']['parse_template'] = FALSE;
+
+$template['gentelella']['template'] = 'template/gentelella.php';
+$template['gentelella']['regions'] = array(
+   'title' => array('content' => array('Ajhoel Tragedy Template')),
+   'header',
+   'navs',
+   'sidenavs',
+   'content',
+   'footer' => array(
+        'content' => array('Ajhoel Tragedy &copy;2017'),
+    ),
+);
+
+$template['gentelella']['parser'] = 'parser';
+$template['gentelella']['parser_method'] = 'parse';
+$template['gentelella']['parse_template'] = FALSE;
