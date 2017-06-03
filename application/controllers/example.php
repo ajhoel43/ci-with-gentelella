@@ -1,6 +1,6 @@
-<?php 
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
-* 
+* This is Example Controller
 */
 class Example extends CI_Controller
 {
