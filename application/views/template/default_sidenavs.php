@@ -25,8 +25,8 @@
 					<li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('example/simple_template') ?>">Simple Template</a></li>
+							<li><a href="<?php echo base_url('example/index') ?>">Page Example</a></li>
 							<li><a href="<?php echo base_url('example/dashboard') ?>">Dashboard</a></li>
-							<li><a href="<?php echo base_url('example/index3') ?>">Dashboard 2</a></li>
 						</ul>
 					</li>
 					<li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
