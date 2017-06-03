@@ -49,6 +49,7 @@
 							<li><a href="#level3">Menu 3</a></li>
 						</ul>
 					</li>
+					<li><a href="https://github.com/puikinsh/gentelella"><i class="fa fa-external-link-square"></i> Gentelella <span class="label label-info pull-right">Learn More</span></a></li>
 				</ul>
 			</div>
 		</div>
