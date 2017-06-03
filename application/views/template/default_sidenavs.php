@@ -1,8 +1,9 @@
 <div class="col-md-3 left_col">
 	<div class="left_col scroll-view">
-		<div class="nabar nav_title" style="border:0;">
-			<a href="<?php echo base_url() ?>" class="site_title"><i class="fa fa-paw"></i> <span style="font-size: 16px;"><?php echo 'CI Gentelella by Ajhoel' ?></span></a>
+ 		<div class="navbar nav_title" style="border: 0;">
+			<a href="<?php echo base_url(); ?>" class="site_title"><i class="fa fa-paw"></i> <span style="font-size: 20px;"><?php echo 'CI with Gentelella' ?></span></a>
 		</div>
+
 		<div class="clearfix"></div>
 		<!-- menu profile quick info -->
 		<div class="profile clearfix">
@@ -31,6 +32,7 @@
 					<li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
 						<ul class="nav child_menu">
 							<li><a href="<?php echo base_url('example/form_ex') ?>">General Form</a></li>
+							<li><a href="<?php echo base_url('example/table_ex') ?>">Table</a></li>
 						</ul>
 					</li>
 					<li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
@@ -51,7 +53,7 @@
 		</div>
 		<!-- /Sidebar Menu -->
 
-		<!-- /menu footer buttons -->
+		<!-- menu footer buttons -->
 		<div class="sidebar-footer hidden-small">
 			<a data-toggle="tooltip" data-placement="top" title="Settings">
 				<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
